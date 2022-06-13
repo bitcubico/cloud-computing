@@ -1,5 +1,3 @@
-# AZ-900 - Fundamentals
-
 ## Conceptos de la nube
 
  ### Computo en la nube
@@ -77,6 +75,8 @@ Este servicio le proporciona al cliente un entorno para desarrollar, probar e im
 #### SaaS (Software como servicio)
 Este servicio le permite a los usuarios usar aplicaciones basadas en la nube y se conectan a ellas a través de internet. Algunos ejemplos de estas aplicaciones son el correo electrónico, calendarios, Microsoft 365, etc.
 
+> **Se debe tener en cuenta que los modelos de negocios se pueden combinar entre ellos**
+
 ### Modelo de responsabilidad compartida
 Habla sobre la responsabilidad que tiene cada uno de los actores que intervienen en el funcionamiento de la nube:
 
@@ -90,3 +90,12 @@ Máquina virtual | User | Prov | Prov | Prov
 Proceso | Prov | Prov | Prov | Prov
 Redes | Prov | Prov | Prov | Prov
 Almacenamiento | Prov | Prov | Prov | Prov
+
+### Computo sin servidor
+Con las aplicaciones de computo sin servidor, ***el proveedor de servicios en la nube aprovisiona, escala y administra de manera automática la infraestructura necesaria para ejecutar el código***. Esta automatización de acciones sin la intervención del cliente se hacen a través de:
+
+#### Azure Functions
+Es el código que ejecuta su servicio y no la plataforma o infraestructura subyacente. ***Crea una infraestructura basada en un evento*** y la destruye después que el evento halla pasado, esto es muy ventajoso porque solo se cobra por el computo generado en ese evento.
+
+### Azure Logic Apps
+Es un servicio en la nube que ***ayuda a automatizar y organizar tareas***, pone a disposición procesos de negocios y flujos de trabajo para cuando se necesiten integrar aplicaciones, datos, sistemas y servicios. ***Es similar a un orquestador de procesos de negocios***.
